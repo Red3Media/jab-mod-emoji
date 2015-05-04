@@ -1,0 +1,11 @@
+#!/bin/sh
+
+name="jab-mod-emoji"
+version="0.0.1"
+gemfile="gem 'jemoji'"
+postInstall="To finish your install, add
+
+gems:
+- jemoji
+
+to your _config.yml file. If the line 'gems:' already exists, add the '- jemoji' line under it."
